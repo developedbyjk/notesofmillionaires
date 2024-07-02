@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Delius+Swash+Caps&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #faf8f0; */
+    background-color: 	#fffaf0;
+}
+.container{
+    display: flex;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+.note{
+    margin: 20px;
+    font-family: "Comic Neue", cursive;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.81);
+}
